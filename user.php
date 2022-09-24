@@ -46,10 +46,11 @@
     }
     
     $user1 = new User(familia: 'Конев', imya: 'Павел', dataRoz: ('2004-02-03'));
-    $user1->setOtchestvo('sdf');
+    $user1->setOtchestvo('Федотович');
     $user2 = new User(familia: 'Капибарович', imya: 'Федор', dataRoz: ('2004-02-03'));
-    $user2->setOtchestvo('hjk');
+    $user2->setOtchestvo('Филимонович');
     $user3 = new User(familia: 'Уткин', imya: 'Лаур', dataRoz: ('2004-02-03'));
+    $user3->setOtchestvo('Генадиевич');
     
     echo $user2 . PHP_EOL;
     echo implode ("\n", [
